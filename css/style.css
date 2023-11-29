@@ -1,0 +1,333 @@
+
+
+/* Home page */
+nav {
+    font-family: 'Open Sans', sans-serif;
+    ;
+}
+
+.nl {
+
+    color: black;
+}
+
+.nl:hover {
+    color: #89c545;
+    text-decoration: none;
+}
+
+.display-4 {
+    font-family: 'Merriweather', serif;
+}
+
+.btn1 {
+    background-color: #7aa548;
+    padding: 10px 18px 10px 18px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn1:hover {
+    background-color: #89c545;
+    color: white;
+
+}
+
+.btn2 {
+    background-color: #7aa548;
+    padding: 10px 35px 10px 35px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+
+.btn2:hover {
+    background-color: #89c545;
+    color: white;
+
+}
+
+.container,span,p {
+    font-family: "Open Sans", sans-serif;
+}
+#i1{
+height:100%;
+width:100%;
+background-color: rgba(12, 12, 12, 0.507);
+transition: 1s;
+color: white;
+padding:30px 20px 0px 0px;
+}
+
+#i1:hover {
+    background-color: rgba(0, 0, 0, 0.712);
+    transition: 1s;
+}
+.ftl{
+    text-decoration: none;
+    color: rgb(202, 200, 200);
+    font-family: "Open Sans", sans-serif;
+    padding: 0px 0px 7px 0px;
+   
+}
+.ftl:hover{
+    color: white;
+    text-decoration: none;
+}
+.ftl1{
+    text-decoration: none;
+    color: #89c545;
+    font-family: "Open Sans", sans-serif;
+    padding: 0px 0px 7px 0px; 
+}
+.ftl1:hover{
+    text-decoration: none;
+    color: #647254;
+}
+.fs{
+    text-decoration: none;
+    color: rgb(202, 200, 200);
+    margin-left: 25px;
+}
+.fs:hover{
+    text-decoration: none;
+    color: #89c545;
+}
+
+
+@media(max-width:768px){
+   #d2{
+   text-align: center;  
+   }
+   .d2c1{
+    font-size:33px;
+    font-weight: bold;
+   }
+   #f20{
+    font-size:20px;
+    
+   }
+   #f25{
+    font-size:25px;
+    font-weight: bold;
+   }
+   #ft{
+    text-align: center;
+   }
+   #f27{
+    font-size:27px;
+    font-weight: bold;
+    color: #89c545;
+   }
+   
+   #f28{
+    font-size:28px;
+    font-weight: bold;
+   }
+   #ad1{
+    text-align: center;
+    font-size:25px;
+   }
+   #ad2{
+    text-align: center;
+    
+   }
+   #hy{
+    text-align: right;
+   }
+   
+}
+
+
+/* shop page */
+.btn3{
+    background-color: #7aa548;
+    padding: 10px 12px 10px 12px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+/* rang */
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 10px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #89c545;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #89c545;
+    cursor: pointer;
+  }
+  .btn4{
+    background-color: #89c545;
+    padding: 10px 18px 10px 18px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+  }
+  .btn5{
+    background-color: white;
+    padding: 10px 17px 10px 17px;
+    border: 1px solid #89c545;
+    color: #89c545;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+  }
+  .btn5:hover{
+    background-color:#89c545;
+    color:white;
+  }
+
+  /* about page */
+  /* slidebar */
+  .mySlides {display: none;}
+ 
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+ .image1{
+    border-radius: 10px;
+ }
+  .active {
+    background-color: #717171;
+  }
+  
+  .animated {
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+@-webkit-keyframes fadeInRight { 
+    0% { 
+        opacity: 0; 
+        -webkit-transform: translateX(20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        -webkit-transform: translateX(0); 
+    } 
+} 
+@keyframes fadeInRight { 
+    0% { 
+        opacity: 0; 
+        transform: translateX(20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translateX(0); 
+    } 
+} 
+.fadeInRight { 
+    -webkit-animation-name: fadeInRight; 
+    animation-name: fadeInRight; 
+}
+
+/* preloader */
+
+/* #loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  } */
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+  #myDiv {
+    display: none;
+     
+  }
+
+
+  /* --------- */
+  body{background:#ECF0F1}
+
+.load{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);
+  /*change these sizes to fit into your project*/
+  width:100px;
+  height:100px;
+}
+.load hr{border:0;margin:0;width:40%;height:40%;position:absolute;border-radius:50%;animation:spin 2s ease infinite}
+
+.load :first-child{background:#19A68C;animation-delay:-1.5s}
+.load :nth-child(2){background:#F63D3A;animation-delay:-1s}
+.load :nth-child(3){background:#FDA543;animation-delay:-0.5s}
+.load :last-child{background:#193B48}
+
+@keyframes spin{
+  0%,100%{transform:translate(0)}
+  25%{transform:translate(160%)}
+  50%{transform:translate(160%, 160%)}
+  75%{transform:translate(0, 160%)}
+}
+ 

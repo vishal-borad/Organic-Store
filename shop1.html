@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shop - Organic Store</title>
+        <!-- css -->
+        <link rel="stylesheet" href="css/style.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <!-- favicon icon -->
+    <link rel="icon" href="image/p44.png">
+    </head>
+<body onload="myFunction()" style="margin:0;">
+
+        <div id="loader">
+
+            <div class="load">
+                <hr/><hr/><hr/><hr/>
+              </div>
+        </div>
+        
+ <div style="display:none;" id="myDiv" class="animate-bottom">
+    
+    <!-----header -->
+    <nav class="navbar navbar-expand-md bg-light navbar-light">
+        <a href="index.html" class="nav-brand"><img src="image/logo.svg" alt="" style="width:75%; height:75%;"></a>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hy">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="hy">
+            <ul class="navbar-nav"> 
+                <li class="nav-item"><a href="#" class="nl mr-4">Everything</a></li>
+                <li class="nav-item"><a href="#" class="nl mr-4">Groceries</a></li>
+                <li class="nav-item"><a href="#" class="nl mr-4">Juice</a></li>
+                
+            </ul>  
+            <ul class="navbar-nav ml-auto"> 
+                <li class="nav-item"><a href="about.html" class="nl mr-4">About</a><li>
+                <li class="nav-item"><a href="contact.html" class="nl mr-4">Contact</a></li>
+                <li class="nav-item"><a href="#" class="nl mr-4" style="color:#89c545; font-weight: bold;">£0.00 </a></li>
+                <li class="nav-item"><a href="" class="nl mr-4"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a></li>
+                <li class="nav-item"><a href="#" class="nl"><i class="fa fa-user" aria-hidden="true" style="font-size:22px;"></i></a></li>
+             </ul>  
+        </div>
+    </nav>
+<!--------- -->
+<div class="container-fluid" style="background-color:hsl(0, 16%, 96%);">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-12">
+                <div style="height:70px; width:100%;"></div>
+            </div> 
+            
+            <div class="col-md-3 border-right">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="container"> 
+                            <form action="" >
+                                <input type="text" class="p-2 border-1 w-75" placeholder="Search products…
+                                "> &nbsp;<button class="btn3" type="button"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                                <br> <br> 
+                                <h5 class="font-weight-bold">Filter by price</h5>
+                                    <input type="range" max="40" min="10" class="slider" id="myRange" style="width: 250px; background:black;">
+                                    <p>Price:  <span id="demo"> </span></p>
+                            </form><br>
+                            <a href="" class="ftl1">Groceries 10</a><br> 
+                            <a href="" class="ftl1">Juice 9 </a><br><br>
+                            <img src="image/p6.jpg" alt="" class="w-100">
+                            <a href="" class="ftl1">Natural Extracted Edible Oil</a>
+                            <p><del>£34.00 </del>&nbsp; £25.00</p><br>
+                            <img src="image/p3.jpg" alt="" class="w-100">
+                            <a href="" class="ftl1">Hand Sanitizer</a>
+                            <p>£15.00</p><br>
+                            <img src="image/p20.jpg" alt="" class="w-100">
+                            <a href="" class="ftl1">Wheat From Organic Farms </a>
+                            <p>£34.00</p><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="container"> 
+                    <div class="col-md-12">
+                        <div class="row">
+                                <div class="col-md-12">
+                                    <a href="index.html" class="nl">Home </a><span>/ <a href="shop.html" class="nl">Shop </a>/ Page 2</span> 
+                                </div> 
+                                <div class="col-md-12 mt-4">
+                                    <h1 class="display-4" style="color: #89c545;" id="f27">Shop</h1>
+                                </div>
+                                <div class="col-md-12">
+                                    <div style="height:40px; width:100%;"></div>
+                                </div>
+                                <div class="col-md-9">
+                                    <p>Showing 10–12 of 12 results</p>
+                                </div>
+                                <div class="col-md-3">
+                                      <select name="" id="" class="w-100 h-100 border-0">
+                                         <option value="">Default sorting</option>
+                                         <option value="">Sort by popularity</option>
+                                         <option value="">Sort by average rating</option>
+                                         <option value="">Sort by latest</option>
+                                         <option value="">Sort by  price : low to high</option>
+                                         <option value="">Sort by  price : high to low  </option>
+                                      </select>
+                                </div>
+                                <div class="col-md-12">
+                                    <div style="height:30px; width:100%;"></div>
+                                </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-12 mb-5">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="image/p36.jpg" alt="" class="w-100 w-75">
+                                <center>
+                                    <span class="text-secondary">Groceries </span>
+                                    <a href="" class="card-link text-dark"><h6 class="font-weight-bold">Organic Face Scrub</h6></a>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i> <br>
+                                    <span class="font-weight-bold">£35.00</span>
+                                </center> 
+                            </div>
+                            <div class="col-md-4">
+                                <img src="image/p37.jpg" alt="" class="w-100 w-75">
+                                <center>
+                                    <span class="text-secondary">Groceries </span>
+                                    <a href="" class="card-link text-dark"><h6 class="font-weight-bold">Pulses From Organic Farm</h6></a>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i> <br>
+                                    <span class="font-weight-bold">£35.00</span>
+                                </center> 
+                            </div>
+                            <div class="col-md-4">
+                                <img src="image/p20.jpg" alt="" class="w-100 w-75">
+                                <center>
+                                    <span class="text-secondary">Groceries </span>
+                                    <a href="" class="card-link text-dark"><h6 class="font-weight-bold">Wheat From Organic Farms</h6></a>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i> <br>
+                                    <span class="font-weight-bold"> £25.00</span>
+                                </center> 
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
+                    
+                    <div class="col-md-12 mb-5">
+                        <a href="shop.html"><button class="btn5"><i class="fa fa-arrow-left" aria-hidden="true"></i></button> </a>
+                        <a href="shop.html"><button class="btn5">1</button></a>
+                        <a href=""><button class="btn4">2</button> </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+    <!--footer-------->
+    <div class="container-fluid" style="background-color: black;">
+        <div class="container">
+            <div class="col-md-12 p-5" id="ft"> 
+                <div class="row">
+                    <div class="col-md-6 text-white">
+                        <a href="index.html"><img src="image/p35.png" alt=""></a><br><br>
+                        <p class="font-italic font-weight-bold" style="color: rgb(202, 200, 200);">Maecenas mi justo, interdum at consectetur vel, tristique et arcu. Ut quis eros blandit, ultrices diam in, elementum ex. Suspendisse quis faucibus urna. Suspendisse pellentesque.</p>
+                    </div>
+                    <div class="col-md-2 text-white">
+                        <h4 class="font-weight-bold mb-3">Quick Links</h4> 
+                        <a href="about.html" class="ftl">About</a><br>
+                        <a href="#" class="ftl">Cart</a><br>
+                        <a href="#" class="ftl">Checkout</a><br>
+                        <a href="contact.html" class="ftl">Contact</a><br>
+                        <a href="index.html" class="ftl">Home</a><br>
+                        <a href="#" class="ftl">My account</a><br>
+                        <a href="shop.html" class="ftl">Shop</a><br><br><br>
+
+                        <h4 class="font-weight-bold mb-3">Site Links</h4> 
+                        <a href="#" class="ftl">Privacy Policy</a><br>
+                        <a href="#" class="ftl">Shipping Details</a><br>
+                        <a href="#" class="ftl">Offers Coupons</a><br>
+                        <a href="#" class="ftl">Terms & Conditions</a><br><br>
+                    </div>
+
+                    <div class="col-md-4 text-white">
+                        <h4 class="font-weight-bold mb-3">Download Our Mobile App</h4> 
+                        <p style="color: rgb(202, 200, 200);">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam gravida sollicitudin. Praesent porta enim mi, non tincidunt libero interdum sit amet.</p><br><br><br><br>
+                        <h4 class="font-weight-bold mb-3">Quick Links</h4> 
+                        <a href="" class="ftl1">Know More About Us</a><br>
+                        <a href="" class="ftl1">Visit Store</a><br>
+                        <a href="" class="ftl1">Let’s Connect</a><br>
+                        <a href="" class="ftl1">Locate Stores</a><br><br>
+                        <img src="image/p22.png" alt="" style="height:40px; width:150px;">&nbsp;
+                        <img src="image/p23.png" alt="" style="height:40px; width:150px;">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: black;" id="ft">
+            <div class="col-md-12">
+                <div class="row"> 
+                    <div class="col-md-12">
+                        <hr style="color:gray;background-color:gray; width:100%;">
+                    </div>
+                </div>
+            </div>
+        
+            <div class="container">
+                <div class="col-md-12 py-2">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <h5  style="color: rgb(202, 200, 200);">Copyright © 2023 | Organic Store</h5>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="" class="fs"><i class="fa fa-yelp" aria-hidden="true"></i></a>
+                            <a href="" class="fs"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="" class="fs"><i class="fa fa-twitter" aria-hidden="true"></i></a>  
+                            <a href="" class="fs"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+               </div>
+            </div>
+    </div>
+ <!------------ -->
+ </div>
+<script>
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("demo");
+    output.innerHTML = slider.value;
+    
+    slider.oninput = function() {
+      output.innerHTML = this.value;
+    }
+    </script>
+
+    <!-- loader -->
+    <script>
+        var myVar;
+        
+        function myFunction() {
+          myVar = setTimeout(showPage,2500);
+        }
+        
+        function showPage() {
+          document.getElementById("loader").style.display = "none";
+          document.getElementById("myDiv").style.display = "block";
+        }
+        </script>
+</body>
+</html>
